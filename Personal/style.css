@@ -1,0 +1,814 @@
+/*a {
+	color: inherit;
+}*/
+.about-me {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-color: #020617;
+  width: 100%;
+  }
+
+
+.about-me .frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 8px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.about-me .navigation {
+  display: inline-flex;
+  align-items: center;
+  gap: 369px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.about-me .angelo-r {
+  font-size: 24px;
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Lexend Deca", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-me .text-wrapper {
+  color: #ffffff;
+}
+
+.about-me .span {
+  color: #eab308;
+}
+
+.about-me .navbar {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 27px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.about-me .home {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Lexend Deca", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-me .div {
+  position: relative;
+  width: 100%;
+  margin-top: -1px;
+  font-family: "Lexend Deca", Helvetica;
+  font-weight: 400;
+  color: #9ca3af;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-me .herosection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 96px 165px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #111827;
+}
+
+.about-me .frame-2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 199px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.about-me .frame-3 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.about-me .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Lexend Deca", Helvetica;
+  font-weight: 400;
+  color: #eab308;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 27px;
+  white-space: nowrap;
+}
+
+.about-me .frame-4 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.about-me .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Lexend Deca", Helvetica;
+  font-weight: 700;
+  color: #f3f4f6;
+  font-size: 42px;
+  letter-spacing: 0;
+  line-height: 64px;
+  white-space: nowrap;
+}
+
+.about-me .p {
+  position: relative;
+  width: fit-content;
+  font-family: "Lexend Deca", Helvetica;
+  font-weight: 400;
+  color: #6b7280;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.about-me .div-wrapper {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 8px 20px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #facc15;
+  border-radius: 4px;
+}
+
+.about-me .text-wrapper-4 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Lexend Deca", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 27px;
+  white-space: nowrap;
+}
+
+.about-me .rectangle {
+  margin: 0% 0% 0% 0%;
+  position: relative;
+  width: 627px;
+  height: 627px;
+  object-fit: cover;
+}
+
+.about-me .aboutme {
+  display: inline-flex;
+  align-items: center;
+  gap: 89px;
+  padding: 96px 0px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.about-me .about {
+  position: relative;
+  width: 475px;
+  height: 510px;
+}
+
+.about-me .overlap-group {
+  position: relative;
+  height: 510px;
+}
+
+.about-me .rectangle-2 {
+  position: absolute;
+  width: 401px;
+  height: 500px;
+  top: 10px;
+  left: 22px;
+  border-radius: 24px;
+  border: 16px solid;
+  border-color: #eab308;
+  transform: rotate(180deg);
+}
+
+.about-me .img {
+  position: absolute;
+  width: 380px;
+  height: 475px;
+  top: 0;
+  left: 0;
+}
+
+.about-me .frame-5 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.about-me .div-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Lexend Deca", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 42px;
+  letter-spacing: 0;
+  line-height: 64px;
+  white-space: nowrap;
+}
+
+.about-me .text-wrapper-5 {
+  color: #f3f4f6;
+}
+
+.about-me .frame-6 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.about-me .frame-7 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.about-me .save-time-money-and {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Lexend Deca", Helvetica;
+  font-weight: 400;
+  color: #6b7280;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.about-me .buttondl {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 16px 20px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #eab308;
+  border-radius: 4px;
+}
+
+.about-me .myservice {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 96px 165px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #111827;
+}
+
+.about-me .frame-9 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 56px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.about-me .text-wrapper-6 {
+  color: #fffdfa;
+}
+
+.about-me .frame-10 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 30px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.about-me .frame-wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 32px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #020617;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.about-me .frame-11 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.about-me .frame-12 {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+.about-me .frame-13 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.about-me .text-wrapper-7 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Lexend Deca", Helvetica;
+  font-weight: 700;
+  color: #f3f4f6;
+  font-size: 26px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 41px;
+}
+
+.about-me .text-wrapper-8 {
+  position: relative;
+  width: 286px;
+  font-family: "Lexend Deca", Helvetica;
+  font-weight: 400;
+  color: #6b7280;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.about-me .frame-14 {
+  position: relative;
+  width: 40px;
+  height: 37.78px;
+}
+
+.about-me .myportfolio {
+  display: flex;
+  flex-direction: column;
+  width: 1257px;
+  align-items: center;
+  gap: 80px;
+  padding: 96px 0px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.about-me .frame-15 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.about-me .div-3 {
+  font-family: "Lexend Deca", Helvetica;
+  text-align: center;
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-weight: 700;
+  color: transparent;
+  font-size: 42px;
+  letter-spacing: 0;
+  line-height: 64px;
+  white-space: nowrap;
+}
+
+.about-me .text-wrapper-9 {
+  position: relative;
+  width: fit-content;
+  font-family: "Lexend Deca", Helvetica;
+  font-weight: 400;
+  color: #9ca3af;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 27px;
+  white-space: nowrap;
+}
+
+.about-me .frame-16 {
+  display: flex;
+  width: 1169px;
+  height: 557px;
+  align-items: flex-start;
+  gap: 27px;
+  position: relative;
+}
+
+.about-me .rectangle-3 {
+  position: relative;
+  width: 753px;
+  height: 565px;
+  margin-bottom: -8px;
+}
+
+.about-me .frame-17 {
+  display: inline-flex;
+  height: 565px;
+  align-items: flex-start;
+  gap: 31px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-bottom: -8px;
+}
+
+.about-me .rectangle-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 309px;
+  height: 557px;
+  align-items: flex-start;
+  gap: 29px;
+  position: relative;
+}
+
+.about-me .rectangle-4 {
+  position: relative;
+  width: 388px;
+  height: 563px;
+  margin-bottom: -6px;
+  margin-right: -79px;
+  object-fit: cover;
+}
+
+.about-me .rectangle-5 {
+  position: relative;
+  width: 857px;
+  height: 137px;
+}
+
+.about-me .rectangle-6 {
+  position: relative;
+  width: 633px;
+  height: 298px;
+  
+}
+
+.about-me .experience {
+  gap: 8px;
+  padding: 85px 149px;
+  background-color: #191d28;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.about-me .experience-2 {
+  gap: 80px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.about-me .my-experiences {
+  font-family: "Arvo", Helvetica;
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-weight: 700;
+  color: transparent;
+  font-size: 42px;
+  letter-spacing: 0;
+  line-height: 64px;
+  white-space: nowrap;
+}
+
+.about-me .text-wrapper-10 {
+  position: relative;
+  width: 730px;
+  font-family: "Lexend Deca", Helvetica;
+  font-weight: 400;
+  color: #9ca3af;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.about-me .frame-18 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 29px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.about-me .text-wrapper-11 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Lexend Deca", Helvetica;
+  font-weight: 400;
+  color: #d1d5db;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 27px;
+  white-space: nowrap;
+}
+
+.about-me .frame-19 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.about-me .text-wrapper-12 {
+  color: #eab308;
+  white-space: nowrap;
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Lexend Deca", Helvetica;
+  font-weight: 700;
+  font-size: 26px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 41px;
+}
+
+.about-me .text-wrapper-13 {
+  position: relative;
+  width: fit-content;
+  font-family: "Lexend Deca", Helvetica;
+  font-weight: 700;
+  color: #d1d5db;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 27px;
+  white-space: nowrap;
+}
+
+.about-me .frame-20 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.about-me .text-wrapper-14 {
+  position: relative;
+  width: 286px;
+  margin-top: -1px;
+  font-family: "Lexend Deca", Helvetica;
+  font-weight: 400;
+  color: #6b7280;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.about-me .frame-21 {
+  display: inline-flex;
+  flex-direction: column;
+  height: 357px;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 32px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #020617;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.about-me .frame-22 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.about-me .text-wrapper-15 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Lexend Deca", Helvetica;
+  font-weight: 700;
+  color: #eab308;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 41px;
+  white-space: nowrap;
+}
+
+.about-me .there-are-many {
+  position: relative;
+  width: 272px;
+  font-family: "Lexend Deca", Helvetica;
+  font-weight: 400;
+  color: #6b7280;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.about-me .contact {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 56px;
+  padding: 96px 0px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.about-me .work-with-me-wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.about-me .frame-23 {
+  display: inline-flex;
+  align-items: center;
+  gap: 32px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.about-me .phone {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Lexend Deca", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 41px;
+  white-space: nowrap;
+}
+
+.about-me .text-wrapper-16 {
+  font-weight: 700;
+  color: #eab308;
+}
+
+.about-me .e-mail {
+  position: relative;
+  width: fit-content;
+  font-family: "Lexend Deca", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 41px;
+  white-space: nowrap;
+}
+
+.about-me .frame-24 {
+  display: flex;
+  flex-direction: column;
+  width: 119px;
+  align-items: flex-start;
+  gap: 32px;
+  position: relative;
+}
+
+.about-me .frame-25 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-right: -24px;
+}
+
+.about-me .text-wrapper-17 {
+  position: relative;
+  width: 103px;
+  margin-top: -1px;
+  font-family: "Lexend Deca", Helvetica;
+  font-weight: 400;
+  color: #9ca3af;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.about-me .frame-26 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.about-me .text-wrapper-18 {
+  position: relative;
+  width: 77px;
+  font-family: "Lexend Deca", Helvetica;
+  font-weight: 400;
+  color: #9ca3af;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.about-me .frame-27 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 56px;
+  padding: 56px 0px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.about-me .angelo-r-2 {
+  font-size: 32px;
+  text-align: center;
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Lexend Deca", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about-me .text-wrapper-19 {
+  position: relative;
+  width: 685px;
+  font-family: "Lexend Deca", Helvetica;
+  font-weight: 400;
+  color: #9ca3af;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
